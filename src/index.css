@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(12, 240, 240), rgb(8, 8, 238));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.division {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
